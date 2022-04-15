@@ -13,9 +13,9 @@ $palette: (
 		3: #33363A
 	),
 	primary: (
-		1: #6163FF,
+		1: #8BC5C6,
 		2: #ACADFF,
-		3: #5658DD,
+		3: #333132,
 		4: #E9E9FF
  	),
 	secondary: (
@@ -33,7 +33,7 @@ $palette: (
 
 // Base typography: color
 $color: (
-	heading:				get-color(light, 1),
+	heading:				get-color(primary, 1),
 	base: 					get-color(light, 2),
 	high-contrast: 			get-color(light, 1),
 	mid-contrast: 			get-color(light, 2),
@@ -75,7 +75,7 @@ $icon--color: (
 
 // Misc elements: background color
 $bg--color: (
-	body: 			get-color(dark, 1),
+	body: 			get-color(light, 1),
 	body-shadow:	0 20px 48px rgba(get-color(dark, 1), .8),	// body shadow when a boxed layout is used (set to null if don't want a shadow)
 	body-outer:		lighten(get-color(dark, 1), 2%),			// outer bg color when a boxed layout is used
 	bg-color: 		lighten(get-color(light, 1), 9%),			// .has-bg-color helper class

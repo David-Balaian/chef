@@ -1,7 +1,9 @@
 .testimonial {
 
 	.tiles-item-inner {
-		background: get-color(dark, 2);		
+		background: transparent;
+        border: 1px solid get-color(primary, 1);	
+        border-radius: 10px;	
 	}
 }
 
@@ -27,7 +29,7 @@
     &.has-top-divider {
 
         &::before {
-            background: get-color(dark, 3);
+            background: get-color(primary, 1);
         }
     }
 }
